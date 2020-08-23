@@ -1,0 +1,24 @@
+* {
+	box-sizing: border-box;
+	font-family: "Lucida Console", Courier, monospace;
+}
+body {
+	background-color: #8FBC8F; 
+	color: #000000;
+	text-align: center;
+}
+
+div {
+	background-color: #FFE4C4;
+
+}
+
+@media screen and (max-width: 922px) {
+	
+}
+@media screen (min-width: 768px) and (max-width: 991px) {
+	
+}
+@media screen and (min-width: 767px){
+	767
+}
