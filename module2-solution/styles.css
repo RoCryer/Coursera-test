@@ -17,15 +17,18 @@ h1{
 }
 
 div {
-	background-color: #FFE4C4;
 	border:2px #708090;
 	margin:5px;
 }
+
 div #chicken {
+	background-color: #FFE4C4;
 	position: relative;
-	margin:5px;
-	height: 60px;
-	border:5px #708090;
+	bottom-margin:15px;
+	border:5px solid #708090;
+	min-height:200px;
+	max-height: 400px;
+	padding: 0;
 }
 div #chicken h2{
 	font-size: 28px
@@ -36,12 +39,17 @@ div #chicken h2{
 	right: 0px;
   	top: 0px;
   	margin:5px;
+  	border:5px solid #708090;
+  	padding:5px;
 	}
 div #beef {
+	background-color: #FFE4C4;
 	position: relative;
-	margin:5px;
-	height: 60px;
-	border:2px #708090;
+	bottom-margin:15px;
+	border:5px solid #708090;
+	min-height:200px;
+	max-height: 400px;
+	padding: 0;
 }
 div #beef h2{
 	font-size: 28px
@@ -52,12 +60,17 @@ div #beef h2{
 	right: 0px;
   	top: 0px;
   	margin:5px;	
+  	border:5px solid #708090;
+  	padding:5px;
 }
 div #sushi {
+	background-color: #FFE4C4;
 	position: relative;
-	margin:5px;
-	height: 60px;
-	border:2px #708090;
+	bottom-margin:15px;
+	border:5px solid #708090;
+	min-height:200px;
+	max-height: 400px;
+	padding: 0;
 }
 div #sushi h2{
 	font-size: 28px
@@ -68,6 +81,8 @@ div #sushi h2{
 	right: 0px;
   	top: 0px;
   	margin:5px;	
+  	border:5px solid #708090;
+  	padding:5px;
 }
 p{
 	font-size: 20px;
@@ -77,16 +92,16 @@ p{
 	margin-bottom: 15px;
 	text-align: left;
 	position: absolute;
-	top:20px;
+	top:50px;
 }
 .row{
-	width: 100%;
+	width: 95%
 }
+
 /**Large Devices**/
-@media (min-width: 922px) {
-	.col-sm-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-		float:left;
-		border: 2px #708090;
+@media (min-width: 922px) {	
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+	float:left;
 } 
 .col-lg-1{
 	width:8.33%;
@@ -124,12 +139,11 @@ p{
 .col-lg-12{
 	width:100%;
 }
-}
+
 /**Medium Devices**/	
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {	 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-		float:left;
-		border: 2px #708090;
+	float:left;
 } 
 .col-md-1{
 	width:8.33%;
@@ -167,6 +181,6 @@ p{
 .col-md-12{
 	width:100%;
 }
-}	
+
 
 
