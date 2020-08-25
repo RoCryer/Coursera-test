@@ -16,19 +16,16 @@ h1{
 	margin-top: 15px;
 }
 
-div {
-	border:2px #708090;
-	margin:5px;
-}
-
 div #chicken {
 	background-color: #FFE4C4;
 	position: relative;
+	margin: 15px 3px 15px;
 	bottom-margin:15px;
 	border:5px solid #708090;
 	min-height:200px;
-	max-height: 400px;
+	max-height: 600px;
 	padding: 0;
+	overflow: auto;
 }
 div #chicken h2{
 	font-size: 28px
@@ -39,17 +36,18 @@ div #chicken h2{
 	right: 0px;
   	top: 0px;
   	margin:5px;
-  	border:5px solid #708090;
+  	border:1px solid #000000;
   	padding:5px;
 	}
 div #beef {
 	background-color: #FFE4C4;
 	position: relative;
-	bottom-margin:15px;
+	margin: 15px 3px 15px;
 	border:5px solid #708090;
 	min-height:200px;
-	max-height: 400px;
+	max-height: 600px;
 	padding: 0;
+	overflow: auto;
 }
 div #beef h2{
 	font-size: 28px
@@ -60,17 +58,18 @@ div #beef h2{
 	right: 0px;
   	top: 0px;
   	margin:5px;	
-  	border:5px solid #708090;
+  	border:1px solid #000000;
   	padding:5px;
 }
 div #sushi {
 	background-color: #FFE4C4;
 	position: relative;
-	bottom-margin:15px;
+	margin: 15px 3px 15px;
 	border:5px solid #708090;
 	min-height:200px;
-	max-height: 400px;
+	max-height: 600px;
 	padding: 0;
+	overflow: auto;
 }
 div #sushi h2{
 	font-size: 28px
@@ -81,7 +80,7 @@ div #sushi h2{
 	right: 0px;
   	top: 0px;
   	margin:5px;	
-  	border:5px solid #708090;
+  	border:1px solid #000000;
   	padding:5px;
 }
 p{
@@ -93,16 +92,19 @@ p{
 	text-align: left;
 	position: absolute;
 	top:50px;
+
 }
 .row{
 	width: 95%
+	margin-right: auto;
+	margin-left: auto;
 }
 
 /**Large Devices**/
-@media (min-width: 922px) {	
+@media (min-width:992px) {	
 	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
 	float:left;
-} 
+}
 .col-lg-1{
 	width:8.33%;
 }
@@ -139,12 +141,25 @@ p{
 .col-lg-12{
 	width:100%;
 }
+}
 
 /**Medium Devices**/	
-@media (min-width: 768px) and (max-width: 991px) {	 
-.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+@media (min-width: 768px) and (max-width: 991px){	 
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
 	float:left;
 } 
+#chicken{
+	float:left;
+	margin: 15px 0px 15px;
+}
+#beef{
+	float:left;
+	margin: 15px 0px 15px;
+}
+#sushi{
+	float:left;
+	margin: 15px 0px 15px;
+}
 .col-md-1{
 	width:8.33%;
 }
@@ -181,6 +196,6 @@ p{
 .col-md-12{
 	width:100%;
 }
-
+}
 
 
