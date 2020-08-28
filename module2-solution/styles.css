@@ -1,7 +1,7 @@
 * {
 	box-sizing: border-box;
 	margin:0;
-	padding: 0;
+	padding:0;
 	font-family: "Lucida Console", Courier, monospace;
 }
 body {
@@ -15,11 +15,17 @@ h1{
 	margin-bottom: 15px;
 	margin-top: 15px;
 }
+div{
+	margin:0;
+	padding:20px;
+	margin-right: auto;
+	margin-left: auto;
+}
 
 div #chicken {
 	background-color: #FFE4C4;
 	position: relative;
-	margin: 15px 3px 15px;
+	margin-top: 15px;
 	bottom-margin:15px;
 	border:5px solid #708090;
 	min-height:200px;
@@ -42,7 +48,8 @@ div #chicken h2{
 div #beef {
 	background-color: #FFE4C4;
 	position: relative;
-	margin: 15px 3px 15px;
+	margin-top: 15px;
+	bottom-margin:15px;
 	border:5px solid #708090;
 	min-height:200px;
 	max-height: 600px;
@@ -64,7 +71,8 @@ div #beef h2{
 div #sushi {
 	background-color: #FFE4C4;
 	position: relative;
-	margin: 15px 3px 15px;
+	margin-top: 15px;
+	bottom-margin:15px;
 	border:5px solid #708090;
 	min-height:200px;
 	max-height: 600px;
@@ -141,6 +149,18 @@ p{
 .col-lg-12{
 	width:100%;
 }
+div #chicken{
+	margin-left: 1px;
+	margin-right: 1px;
+}
+div #beef{
+	margin-left: 1px;
+	margin-right: 1px;
+}
+div #sushi{
+	margin-left: 1px;
+	margin-right: 1px;
+}
 }
 
 /**Medium Devices**/	
@@ -148,18 +168,6 @@ p{
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
 	float:left;
 } 
-#chicken{
-	float:left;
-	margin: 15px 0px 15px;
-}
-#beef{
-	float:left;
-	margin: 15px 0px 15px;
-}
-#sushi{
-	float:left;
-	margin: 15px 0px 15px;
-}
 .col-md-1{
 	width:8.33%;
 }
@@ -195,6 +203,18 @@ p{
 }
 .col-md-12{
 	width:100%;
+}
+div #chicken{
+	margin-left: auto;
+	margin-right: auto;
+}
+div #beef{
+	margin-left: auto;
+	margin-right: auto;
+}
+div #sushi{
+	margin-left: auto;
+	margin-right: auto;
 }
 }
 
