@@ -1,4 +1,4 @@
-(https://github.com/RoCryer/Coursera/module2-solution.html)
+(https://github.io/RoCryer/Coursera/module2-solution.html)
 
 You can use the [editor on GitHub](https://github.com/RoCryer/Coursera-test/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
