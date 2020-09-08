@@ -31,7 +31,7 @@ if (x == undefined) {
 else {
   console.log("x has been defined");
 }*/
-// ***** String concatination
+/*// ***** String concatination
 var string = "Hello";
  // string += " World";
 string = string + " World";
@@ -125,4 +125,13 @@ for (var i = 0; i < 10; i++) {
   console.log(i);
   sum = sum + i;
 }
-console.log("sum of 0 through 9 is: " + sum);
+console.log("sum of 0 through 9 is: " + sum);*/
+  
+// Default values
+function orderChickenWith(sideDish) {
+  sideDish = sideDish || "whatever!";
+  console.log("Chicken with " + sideDish);
+}
+
+orderChickenWith("noodles");
+orderChickenWith();
